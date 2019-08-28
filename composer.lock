@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "massfice/storage",
-            "version": "1.0.3",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Massfice/storage.git",
-                "reference": "afe202fcb7350b1fe0ffb5d88d7819f7d0aa97a7"
+                "reference": "1e170fc04fd826118425084f9c48268a856e4eb8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Massfice/storage/zipball/afe202fcb7350b1fe0ffb5d88d7819f7d0aa97a7",
-                "reference": "afe202fcb7350b1fe0ffb5d88d7819f7d0aa97a7",
+                "url": "https://api.github.com/repos/Massfice/storage/zipball/1e170fc04fd826118425084f9c48268a856e4eb8",
+                "reference": "1e170fc04fd826118425084f9c48268a856e4eb8",
                 "shasum": ""
             },
             "type": "library",
@@ -37,7 +37,7 @@
                 }
             ],
             "description": "Coming soon",
-            "time": "2019-08-28T20:53:45+00:00"
+            "time": "2019-08-28T21:21:26+00:00"
         }
     ],
     "packages-dev": [],
