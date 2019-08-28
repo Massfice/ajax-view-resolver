@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9ae4604b46a09678d6d12c0e4e2fcb31",
+    "content-hash": "d4c76f17b25e4843a3dd9642868ac88a",
     "packages": [
         {
             "name": "massfice/storage",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Massfice/storage.git",
-                "reference": "d9474b4692ca218ec573be78589492d120905318"
+                "reference": "afe202fcb7350b1fe0ffb5d88d7819f7d0aa97a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Massfice/storage/zipball/d9474b4692ca218ec573be78589492d120905318",
-                "reference": "d9474b4692ca218ec573be78589492d120905318",
+                "url": "https://api.github.com/repos/Massfice/storage/zipball/afe202fcb7350b1fe0ffb5d88d7819f7d0aa97a7",
+                "reference": "afe202fcb7350b1fe0ffb5d88d7819f7d0aa97a7",
                 "shasum": ""
             },
             "type": "library",
@@ -37,12 +37,12 @@
                 }
             ],
             "description": "Coming soon",
-            "time": "2019-08-24T20:46:05+00:00"
+            "time": "2019-08-28T20:53:45+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
