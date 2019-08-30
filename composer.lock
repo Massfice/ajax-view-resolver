@@ -4,20 +4,59 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d4c76f17b25e4843a3dd9642868ac88a",
+    "content-hash": "35bcf20ebcfd97a10692699f05378b71",
     "packages": [
         {
-            "name": "massfice/storage",
-            "version": "1.0.4",
+            "name": "massfice/session-utils",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Massfice/storage.git",
-                "reference": "1e170fc04fd826118425084f9c48268a856e4eb8"
+                "url": "https://github.com/Massfice/session-utils.git",
+                "reference": "3836d6d50106cb3d38b2139ead4bb0175c862ff5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Massfice/storage/zipball/1e170fc04fd826118425084f9c48268a856e4eb8",
-                "reference": "1e170fc04fd826118425084f9c48268a856e4eb8",
+                "url": "https://api.github.com/repos/Massfice/session-utils/zipball/3836d6d50106cb3d38b2139ead4bb0175c862ff5",
+                "reference": "3836d6d50106cb3d38b2139ead4bb0175c862ff5",
+                "shasum": ""
+            },
+            "require": {
+                "massfice/storage": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Massfice\\SessionUtils\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Massfice",
+                    "email": "adrian.marian.tomasz.larysz@gmail.com"
+                }
+            ],
+            "description": "Coming soon",
+            "support": {
+                "source": "https://github.com/Massfice/session-utils/tree/master",
+                "issues": "https://github.com/Massfice/session-utils/issues"
+            },
+            "time": "2019-08-30T14:36:25+00:00"
+        },
+        {
+            "name": "massfice/storage",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Massfice/storage.git",
+                "reference": "67f6ce48d5d6925402a98692f1534e235c629068"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Massfice/storage/zipball/67f6ce48d5d6925402a98692f1534e235c629068",
+                "reference": "67f6ce48d5d6925402a98692f1534e235c629068",
                 "shasum": ""
             },
             "type": "library",
@@ -37,13 +76,15 @@
                 }
             ],
             "description": "Coming soon",
-            "time": "2019-08-28T21:21:26+00:00"
+            "time": "2019-08-29T10:56:59+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "massfice/session-utils": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
