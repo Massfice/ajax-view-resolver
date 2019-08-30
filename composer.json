@@ -2,14 +2,8 @@
     "name": "massfice/selecting-view-resolver",
     "description": "Coming soon",
     "type": "library",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/Massfice/session-utils"
-        }
-    ],
     "require": {
-        "massfice/session-utils": "dev-master"
+        "massfice/session-utils": "^1.0"
     },
     "license": "MIT",
     "authors": [

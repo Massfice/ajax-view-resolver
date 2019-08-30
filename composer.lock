@@ -4,11 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "35bcf20ebcfd97a10692699f05378b71",
+    "content-hash": "b059c2aa0e15a4a512ac4ea9cd01c838",
     "packages": [
         {
             "name": "massfice/session-utils",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Massfice/session-utils.git",
@@ -29,6 +29,7 @@
                     "Massfice\\SessionUtils\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -39,10 +40,6 @@
                 }
             ],
             "description": "Coming soon",
-            "support": {
-                "source": "https://github.com/Massfice/session-utils/tree/master",
-                "issues": "https://github.com/Massfice/session-utils/issues"
-            },
             "time": "2019-08-30T14:36:25+00:00"
         },
         {
@@ -82,9 +79,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "massfice/session-utils": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
